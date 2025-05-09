@@ -48,17 +48,6 @@ A reusable searchable select dropdown component with support for filtering optio
 | disabled | Boolean | false | Whether the field is disabled |
 | error | Boolean | false | Whether the field has an error |
 
-## Required JavaScript
-
-This component requires Alpine.js. Make sure it's properly imported in your resources/js/app.js file:
-
-```js
-import './bootstrap';
-import Alpine from 'alpinejs';
-
-window.Alpine = Alpine;
-Alpine.start();
-```
 
 ## Translation
 
